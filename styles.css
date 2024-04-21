@@ -1,0 +1,186 @@
+
+*
+{
+    font-family: Arial;
+}
+body {
+    text-align: center;
+    background-color: #CCCCCC;
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/* Wrapper */
+.wrapper {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Profile */
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border: 5px lightcyan;
+    align-items: center;
+}
+
+.profile img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+/* Portfolio */
+.portfolio {
+    text-align: center;
+}
+
+.portfolio ul h1 {
+    padding: 0;
+    margin: 0;
+    color: lightcyan;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Horizontal Rule */
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+/* Paragraph */
+p {
+    font-family: sans-serif;
+    color: black;
+}
+
+/* Description */
+p.desc {
+    text-align: left;
+    color: black;
+}
+
+/* Heading 1 */
+h1 {
+    color: black;
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* Image */
+img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Heading 3, Heading 4, Unordered List, Ordered List */
+h3, h4 {
+      background-color: #0077b6;
+}
+h3, h4, ul, ol {
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Tab */
+.tabIn {
+    padding: 5px;
+}
+.square-bullets{
+    list-style-type: square;
+}
+/* Navigation Links */
+ul.navLinks {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.navLinks li {
+    text-align: center;
+}
+
+.navLinks li a {
+    display: inline-block;
+    color: black;
+    padding: 10px 16px 10px 16px;
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+    border: 2px solid black;
+}
+
+li a:hover {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Heading 2 Link */
+h2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Heading 3 for Table */
+h3.forTable {
+    text-align: center;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #000;
+}
+
+tr:not(first-child) {
+    background-color: #90e0ef
+}
+
+th {
+  background-color: #0077b6;
+  color: #000000;
+}
+
+/* Heading 2 Link Hover */
+h2 a:hover {
+    border: 2px solid darkgreen;
+    background-color: none;
+    color: whitesmoke;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+/* Print Media Query */
+@media print {
+    html,
+    body {
+        display: none;
+    }
+}
